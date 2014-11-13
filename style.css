@@ -14,23 +14,23 @@
 
 
 .col-md-12 {
-    background-color: #3D9DD1;
+    background-color: green;
 }
 
 .col-md-6 {
-    background-color: #D1713D;
+    background-color: red;
 }
 
 .col-sm-4 {
-    background-color: #F0DE78;
+    background-color: yellow;
 }
 
 .col-md-2 {
-    background-color: #6EB362;
+    background-color: blue;
 }
 
 .col-sm-2 {
-    background-color: #7F418A;
+    background-color: gray;
 }
 
 .fixed-width {
