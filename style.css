@@ -1,0 +1,39 @@
+.mycol {
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    border: 0.5px dotted;
+}
+
+.fixed {
+    height: 30px;
+    background-color: gray;
+    border: 0.5px dotted;
+    margin-bottom:40px;
+    padding-left: 15px;
+}
+
+
+.col-md-12 {
+    background-color: #3D9DD1;
+}
+
+.col-md-6 {
+    background-color: #D1713D;
+}
+
+.col-sm-4 {
+    background-color: #F0DE78;
+}
+
+.col-md-2 {
+    background-color: #6EB362;
+}
+
+.col-sm-2 {
+    background-color: #7F418A;
+}
+
+.fixed-width {
+    width: 10000px;
+    margin: 0;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Essential meta viewport tag -->  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Grid experiments</title>
+
+    <!-- Bootstrap -->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="flat-ui.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+  
+  <body>
+    <!-- A fixed div that won't resize, for comparison-->
+    <div class="fixed-width">
+      <div id="xs-width" class="fixed" style="width:480px; float:left;">Extra small < 480px</div>
+      <div id="sm-width" class="fixed" style="width:288px; float:left;">Small <= 768px</div>
+      <div id="md-width" class="fixed" style="width:224px; float:left;">Medium <= 992px</div>
+      <div id="lg-width" class="fixed" style="width:208px; float:left;">Large < 1200</div>
+      <div id="xl-width" class="fixed" style="width:2000px; float:left;">Extra large > 1200</div>
+    </div>
+
+    <!-- use container-fluid to enable all the responsive features of Bootstrap -->
+    <div class="container-fluid">
+                
+        <div class="hero-unit">
+            <h1>Bootstrap Grid experiments</h1>
+            <p>This page shows how Bootstrap resizes divs based on viewport size</p>
+        </div>
+        
+        <div class="row">
+            <div class="mycol col-md-6">Important md 6 column</div>
+            <div class="mycol col-md-6">Important md 6 column</div>
+        </div> 
+ 
+        <div class="row">
+            <div class="mycol col-sm-4">sm 4</div>
+            <div class="mycol col-sm-4">sm 4</div>
+            <div class="mycol col-sm-4">sm 4</div>
+        </div>
+
+        <div class="row">
+            <div class="mycol col-md-2 col-sm-4 col-xs-6">md / sm</div>
+            <div class="mycol col-md-2 col-sm-4 col-xs-6">md / sm</div>
+            <div class="mycol col-md-2 col-sm-4 col-xs-6">md / sm</div>
+            <div class="mycol col-md-2 col-sm-4 col-xs-6">md / sm</div>
+            <div class="mycol col-md-2 col-sm-4 col-xs-6">md / sm</div>
+            <div class="mycol col-md-2 col-sm-4 col-xs-6">md / sm</div>
+        </div>
+
+        <div class="row">
+            <div class="hidden-sm hidden-xs mycol col-sm-2 col-md-offset-1">Hidden sm / xs</div>
+            <div class="hidden-sm hidden-xs mycol col-sm-2 col-md-offset-1">Hidden sm / xs</div>
+            <div class="hidden-sm hidden-xs mycol col-sm-2 col-md-offset-1">Hidden sm / xs</div>
+            <div class="hidden-sm hidden-xs mycol col-sm-2 col-md-offset-1">Hidden sm / xs</div>
+        </div>
+
+        <div class="row">
+            <div class="hidden-lg hidden-md mycol col-md-12">
+            Visible md or smaller
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+      
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </body>
+</html>
